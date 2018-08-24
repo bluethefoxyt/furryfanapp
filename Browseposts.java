@@ -44,6 +44,7 @@ public class Browseposts extends AppCompatActivity {
         progressDialog.show();
         StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://furryfan.cf/app/browseview.php", new Response.Listener<String>() {
 
+            
             @Override
             public void onResponse(String s) {
                 progressDialog.dismiss();
